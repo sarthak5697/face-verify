@@ -10,7 +10,7 @@ Face verification service for the interview assessment tool. It compares two pho
 
 ## Setup on a fresh machine
 ```powershell
-git clone <repo-url> C:\src\face-verify
+git clone https://github.com/sarthak5697/face-verify.git C:\src\face-verify
 cd C:\src\face-verify
 powershell -ExecutionPolicy Bypass -File .\setup.ps1
 ```
