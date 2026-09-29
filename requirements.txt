@@ -1,0 +1,10 @@
+# Direct dependencies. setup.ps1 installs requirements-lock.txt (exact versions) on Python 3.10
+# and falls back to this file on other Python versions. Also use this file on Linux/macOS.
+deepface
+tensorflow
+tf-keras
+opencv-python<5    # OpenCV 5.0 wheels lack the Haar cascade files DeepFace needs
+numpy
+fastapi
+uvicorn[standard]
+python-multipart

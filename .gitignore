@@ -1,0 +1,11 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Local test photos: personal data, never commit
+images/
+
+# Secrets and local settings
+.env
+.vscode/
